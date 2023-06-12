@@ -1,6 +1,7 @@
 import os
 import sys
 folder_path = os.getcwd()
+print(folder_path)
 sys.path.append(folder_path)
 
 from src.exception import CustomException
